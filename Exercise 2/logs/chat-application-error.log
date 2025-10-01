@@ -1,0 +1,1 @@
+2025-10-01 15:37:30.767 [main] ERROR com.chatapp.ChatApplication - Failed to create room 1: Room name must be at least 3 characters long

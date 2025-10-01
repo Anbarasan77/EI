@@ -1,0 +1,5 @@
+2025-10-01 02:22:20.667 [main] ERROR com.chatapp.ChatApplication - Failed to join room 123 for user Sarvesh: Chat room with ID '123' does not exist
+2025-10-01 02:24:44.795 [main] ERROR com.chatapp.ChatApplication - Failed to join room 123 for user Aarvesh: Chat room with ID '123' does not exist
+2025-10-01 02:30:24.747 [main] ERROR com.chatapp.ChatApplication - Failed to join room 123 for user a: Username must be at least 2 characters long
+2025-10-01 11:48:00.367 [main] ERROR com.chatapp.ChatApplication - Failed to create room 1: Room name must be at least 3 characters long
+2025-10-01 12:05:31.540 [main] ERROR com.chatapp.ChatApplication - Failed to join room 1 for user f: Username must be at least 2 characters long

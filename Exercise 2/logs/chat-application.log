@@ -1,0 +1,87 @@
+2025-10-01 15:34:23.430 [main] INFO  com.chatapp.ChatApplication - Starting Real-Time Chat Application...
+2025-10-01 15:34:23.431 [main] INFO  com.chatapp.manager.ChatRoomManager - ChatRoomManager initialized
+2025-10-01 15:37:30.767 [main] ERROR com.chatapp.ChatApplication - Failed to create room 1: Room name must be at least 3 characters long
+2025-10-01 15:37:39.346 [main] INFO  com.chatapp.model.ChatRoom - Chat room created: qwe (ID: 1)
+2025-10-01 15:37:39.347 [main] INFO  com.chatapp.manager.ChatRoomManager - Chat room created: qwe (ID: 1). Total rooms: 1
+2025-10-01 15:37:39.347 [main] INFO  com.chatapp.ChatApplication - Room created: 1
+2025-10-01 15:38:00.225 [main] INFO  com.chatapp.model.ChatRoom - User Anbu joined room 1 (Total users: 1)
+2025-10-01 15:38:00.226 [main] DEBUG com.chatapp.manager.ChatRoomManager - User Anbu joined room 1
+2025-10-01 15:38:00.229 [main] INFO  com.chatapp.adapter.HttpProtocol - Establishing HTTP connection to http://localhost:8081/chat
+2025-10-01 15:38:00.230 [main] INFO  com.chatapp.adapter.HttpProtocol - HTTP connected successfully to http://localhost:8081/chat
+2025-10-01 15:38:00.230 [main] INFO  com.chatapp.ChatApplication - User Anbu session initialized with HTTP protocol.
+2025-10-01 15:38:00.230 [main] DEBUG com.chatapp.model.ChatRoom - Observer registered for room 1
+2025-10-01 15:38:00.234 [main] INFO  com.chatapp.ChatApplication - User Anbu joined room 1
+2025-10-01 15:38:04.251 [main] DEBUG com.chatapp.model.ChatRoom - Message posted in room 1 by Anbu: Hi
+2025-10-01 15:38:08.177 [main] DEBUG com.chatapp.model.ChatRoom - Message posted in room 1 by Anbu: How are you
+2025-10-01 15:38:12.820 [main] DEBUG com.chatapp.manager.ChatRoomManager - User 38e639a7-c8b8-4b48-8c86-4a7c69ce60fb left room 1
+2025-10-01 15:38:12.821 [main] DEBUG com.chatapp.model.ChatRoom - Observer removed from room 1
+2025-10-01 15:38:12.821 [main] INFO  com.chatapp.adapter.HttpProtocol - Disconnecting HTTP from http://localhost:8081/chat
+2025-10-01 15:38:12.821 [main] INFO  com.chatapp.adapter.HttpProtocol - HTTP disconnected successfully
+2025-10-01 15:38:12.821 [main] INFO  com.chatapp.ChatApplication - User Anbu session polling stopped.
+2025-10-01 15:38:12.822 [main] INFO  com.chatapp.ChatApplication - User Anbu left room 1
+2025-10-01 15:38:12.987 [pool-1-thread-1] INFO  com.chatapp.ChatApplication - User Anbu polling loop exited.
+2025-10-01 15:38:20.996 [main] INFO  com.chatapp.model.ChatRoom - User Sarvesh joined room 1 (Total users: 2)
+2025-10-01 15:38:20.996 [main] DEBUG com.chatapp.manager.ChatRoomManager - User Sarvesh joined room 1
+2025-10-01 15:38:20.997 [main] INFO  com.chatapp.adapter.TcpProtocol - Establishing TCP connection to localhost:8082
+2025-10-01 15:38:20.997 [main] INFO  com.chatapp.adapter.TcpProtocol - TCP connected successfully to localhost:8082
+2025-10-01 15:38:20.997 [main] INFO  com.chatapp.ChatApplication - User Sarvesh session initialized with TCP protocol.
+2025-10-01 15:38:20.997 [main] DEBUG com.chatapp.model.ChatRoom - Observer registered for room 1
+2025-10-01 15:38:20.998 [main] INFO  com.chatapp.ChatApplication - User Sarvesh joined room 1
+2025-10-01 15:38:24.810 [main] DEBUG com.chatapp.model.ChatRoom - Message posted in room 1 by Sarvesh: Fine
+2025-10-01 15:38:55.323 [main] DEBUG com.chatapp.model.ChatRoom - Message posted in room 1 by Sarvesh: leave
+2025-10-01 15:38:59.930 [main] DEBUG com.chatapp.manager.ChatRoomManager - User a1b5d883-e49c-4936-bc56-ca9751ac7ff1 left room 1
+2025-10-01 15:38:59.930 [main] DEBUG com.chatapp.model.ChatRoom - Observer removed from room 1
+2025-10-01 15:38:59.930 [main] INFO  com.chatapp.adapter.TcpProtocol - Disconnecting TCP from localhost:8082
+2025-10-01 15:38:59.930 [main] INFO  com.chatapp.adapter.TcpProtocol - TCP disconnected successfully
+2025-10-01 15:38:59.930 [main] INFO  com.chatapp.ChatApplication - User Sarvesh session polling stopped.
+2025-10-01 15:38:59.931 [main] INFO  com.chatapp.ChatApplication - User Sarvesh left room 1
+2025-10-01 15:39:00.385 [pool-1-thread-1] INFO  com.chatapp.ChatApplication - User Sarvesh polling loop exited.
+2025-10-01 15:39:13.821 [main] INFO  com.chatapp.model.ChatRoom - User Faruck joined room 1 (Total users: 3)
+2025-10-01 15:39:13.822 [main] DEBUG com.chatapp.manager.ChatRoomManager - User Faruck joined room 1
+2025-10-01 15:39:13.823 [main] INFO  c.chatapp.adapter.WebSocketProtocol - Establishing WebSocket connection to ws://localhost:8080/chat
+2025-10-01 15:39:13.823 [main] INFO  c.chatapp.adapter.WebSocketProtocol - WebSocket connected successfully to ws://localhost:8080/chat
+2025-10-01 15:39:13.823 [main] INFO  com.chatapp.ChatApplication - User Faruck session initialized with WebSocket protocol.
+2025-10-01 15:39:13.824 [main] DEBUG com.chatapp.model.ChatRoom - Observer registered for room 1
+2025-10-01 15:39:13.824 [main] INFO  com.chatapp.ChatApplication - User Faruck joined room 1
+2025-10-01 15:39:30.856 [main] DEBUG com.chatapp.model.ChatRoom - Message posted in room 1 by Faruck: jaggu
+2025-10-01 15:39:47.933 [main] INFO  com.chatapp.ChatApplication - Private message sent from Faruck to Anbu: Hi, Anbu
+2025-10-01 15:40:04.307 [main] DEBUG com.chatapp.manager.ChatRoomManager - User f600825a-e37d-47ae-9ce0-ce829bf18463 left room 1
+2025-10-01 15:40:04.307 [main] DEBUG com.chatapp.model.ChatRoom - Observer removed from room 1
+2025-10-01 15:40:04.308 [main] INFO  c.chatapp.adapter.WebSocketProtocol - Disconnecting WebSocket from ws://localhost:8080/chat
+2025-10-01 15:40:04.308 [main] INFO  c.chatapp.adapter.WebSocketProtocol - WebSocket disconnected successfully
+2025-10-01 15:40:04.308 [main] INFO  com.chatapp.ChatApplication - User Faruck session polling stopped.
+2025-10-01 15:40:04.309 [main] INFO  com.chatapp.ChatApplication - User Faruck left room 1
+2025-10-01 15:40:04.619 [pool-1-thread-1] INFO  com.chatapp.ChatApplication - User Faruck polling loop exited.
+2025-10-01 15:40:32.928 [main] INFO  com.chatapp.adapter.HttpProtocol - Establishing HTTP connection to http://localhost:8081/chat
+2025-10-01 15:40:32.929 [main] INFO  com.chatapp.adapter.HttpProtocol - HTTP connected successfully to http://localhost:8081/chat
+2025-10-01 15:40:32.930 [main] INFO  com.chatapp.ChatApplication - User Anbu session protocol reconnected.
+2025-10-01 15:40:32.930 [main] INFO  com.chatapp.ChatApplication - User Anbu session polling restarted.
+2025-10-01 15:40:32.930 [main] DEBUG com.chatapp.model.ChatRoom - Observer registered for room 1
+2025-10-01 15:40:43.970 [main] DEBUG com.chatapp.manager.ChatRoomManager - User 38e639a7-c8b8-4b48-8c86-4a7c69ce60fb left room 1
+2025-10-01 15:40:43.970 [main] DEBUG com.chatapp.model.ChatRoom - Observer removed from room 1
+2025-10-01 15:40:43.970 [main] INFO  com.chatapp.adapter.HttpProtocol - Disconnecting HTTP from http://localhost:8081/chat
+2025-10-01 15:40:43.971 [main] INFO  com.chatapp.adapter.HttpProtocol - HTTP disconnected successfully
+2025-10-01 15:40:43.971 [main] INFO  com.chatapp.ChatApplication - User Anbu session polling stopped.
+2025-10-01 15:40:43.971 [main] INFO  com.chatapp.ChatApplication - User Anbu left room 1
+2025-10-01 15:40:43.975 [pool-1-thread-1] INFO  com.chatapp.ChatApplication - User Anbu polling loop exited.
+2025-10-01 15:41:46.377 [main] DEBUG com.chatapp.model.ChatRoom - Observer removed from room 1
+2025-10-01 15:41:46.377 [main] DEBUG com.chatapp.manager.ChatRoomManager - User 38e639a7-c8b8-4b48-8c86-4a7c69ce60fb left room 1
+2025-10-01 15:41:46.378 [main] INFO  com.chatapp.ChatApplication - User Anbu session polling stopped.
+2025-10-01 15:41:46.379 [main] INFO  com.chatapp.ChatApplication - User Anbu logged out and session removed.
+2025-10-01 15:42:09.553 [main] INFO  com.chatapp.ChatApplication - Shutting down application...
+2025-10-01 15:42:09.555 [main] INFO  com.chatapp.ChatApplication - User Sarvesh session polling stopped.
+2025-10-01 15:42:09.555 [main] DEBUG com.chatapp.model.ChatRoom - Observer removed from room 1
+2025-10-01 15:42:09.555 [main] DEBUG com.chatapp.manager.ChatRoomManager - User a1b5d883-e49c-4936-bc56-ca9751ac7ff1 left room 1
+2025-10-01 15:42:09.556 [main] INFO  com.chatapp.ChatApplication - User Faruck session polling stopped.
+2025-10-01 15:42:09.556 [main] DEBUG com.chatapp.model.ChatRoom - Observer removed from room 1
+2025-10-01 15:42:09.556 [main] DEBUG com.chatapp.manager.ChatRoomManager - User f600825a-e37d-47ae-9ce0-ce829bf18463 left room 1
+2025-10-01 15:42:09.557 [main] INFO  com.chatapp.ChatApplication - Application shutdown complete.
+2025-10-01 15:42:09.557 [main] INFO  com.chatapp.ChatApplication - Shutting down application...
+2025-10-01 15:42:09.557 [main] INFO  com.chatapp.ChatApplication - User Sarvesh session polling stopped.
+2025-10-01 15:42:09.557 [main] DEBUG com.chatapp.model.ChatRoom - Observer removed from room 1
+2025-10-01 15:42:09.557 [main] DEBUG com.chatapp.manager.ChatRoomManager - User a1b5d883-e49c-4936-bc56-ca9751ac7ff1 left room 1
+2025-10-01 15:42:09.557 [main] INFO  com.chatapp.ChatApplication - User Faruck session polling stopped.
+2025-10-01 15:42:09.557 [main] DEBUG com.chatapp.model.ChatRoom - Observer removed from room 1
+2025-10-01 15:42:09.558 [main] DEBUG com.chatapp.manager.ChatRoomManager - User f600825a-e37d-47ae-9ce0-ce829bf18463 left room 1
+2025-10-01 15:42:09.558 [main] INFO  com.chatapp.ChatApplication - Application shutdown complete.
+2025-10-01 15:42:09.558 [main] INFO  com.chatapp.ChatApplication - Real-Time Chat Application stopped.

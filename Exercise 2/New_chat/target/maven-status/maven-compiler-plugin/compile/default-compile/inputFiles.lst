@@ -1,0 +1,13 @@
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\observer\ChatObserver.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\ChatApplication.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\adapter\TcpProtocol.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\model\ChatRoom.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\adapter\CommunicationProtocol.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\adapter\HttpProtocol.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\adapter\WebSocketProtocol.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\manager\ChatRoomManager.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\model\Message.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\model\User.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\observer\ChatSubject.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\exception\ChatRoomException.java
+C:\EI\Exercise 2\New_chat\src\main\java\com\chatapp\model\PrivateMessage.java
