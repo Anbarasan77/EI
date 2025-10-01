@@ -1,0 +1,9 @@
+C:\EI\Exercise 1\behavioural\visitor\document-processor\src\main\java\com\example\documentprocessor\App.java
+C:\EI\Exercise 1\behavioural\visitor\document-processor\src\main\java\com\example\documentprocessor\Document.java
+C:\EI\Exercise 1\behavioural\visitor\document-processor\src\main\java\com\example\documentprocessor\DocumentElement.java
+C:\EI\Exercise 1\behavioural\visitor\document-processor\src\main\java\com\example\documentprocessor\DocumentVisitor.java
+C:\EI\Exercise 1\behavioural\visitor\document-processor\src\main\java\com\example\documentprocessor\HeadingElement.java
+C:\EI\Exercise 1\behavioural\visitor\document-processor\src\main\java\com\example\documentprocessor\HtmlExportVisitor.java
+C:\EI\Exercise 1\behavioural\visitor\document-processor\src\main\java\com\example\documentprocessor\ImageElement.java
+C:\EI\Exercise 1\behavioural\visitor\document-processor\src\main\java\com\example\documentprocessor\ParagraphElement.java
+C:\EI\Exercise 1\behavioural\visitor\document-processor\src\main\java\com\example\documentprocessor\PlainTextExportVisitor.java

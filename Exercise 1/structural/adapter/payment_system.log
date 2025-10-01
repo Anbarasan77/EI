@@ -1,0 +1,12 @@
+Oct 01, 2025 1:19:17 PM com.example.adapter.PaymentApplication main
+INFO: Payment Application started.
+Oct 01, 2025 1:20:25 PM com.example.adapter.PaymentApplication processPaymentWithModernGateway
+INFO: User chose to process payment with Modern Gateway.
+Oct 01, 2025 1:20:27 PM com.example.adapter.PaymentApplication processPaymentWithModernGateway
+INFO: Payment of $50.0 processed successfully with Modern Gateway.
+Oct 01, 2025 1:20:31 PM com.example.adapter.PaymentApplication processPaymentWithOldSystemAdapter
+INFO: User chose to process payment with Old Payment System via Adapter.
+Oct 01, 2025 1:20:34 PM com.example.adapter.PaymentApplication processPaymentWithOldSystemAdapter
+INFO: Payment of $100.0 processed successfully with Old Payment System via Adapter.
+Oct 01, 2025 1:21:17 PM com.example.adapter.PaymentApplication main
+INFO: Exiting application.

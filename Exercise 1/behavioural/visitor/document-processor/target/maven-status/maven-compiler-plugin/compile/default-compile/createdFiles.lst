@@ -1,0 +1,9 @@
+com\example\documentprocessor\ParagraphElement.class
+com\example\documentprocessor\HeadingElement.class
+com\example\documentprocessor\ImageElement.class
+com\example\documentprocessor\DocumentElement.class
+com\example\documentprocessor\PlainTextExportVisitor.class
+com\example\documentprocessor\Document.class
+com\example\documentprocessor\App.class
+com\example\documentprocessor\DocumentVisitor.class
+com\example\documentprocessor\HtmlExportVisitor.class
